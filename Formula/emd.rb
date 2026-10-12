@@ -5,23 +5,23 @@ class Emd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/imgerson/emd/releases/download/v0.1.0/emd_0.1.0_darwin_arm64.tar.gz"
-      sha256 "ce0c75bea57b5fd8c27a3c0d296c1c36c0c7f8f9094fd028f1418585b2911477"
+      url "https://github.com/imgerson/emd/releases/download/v0.2.0/emd_0.2.0_darwin_arm64.tar.gz"
+      sha256 "c7a38131568d263fed0d4b33dac9c91bda64bcc42447471d777b5de3cdde5ae5"
     end
     on_intel do
-      url "https://github.com/imgerson/emd/releases/download/v0.1.0/emd_0.1.0_darwin_amd64.tar.gz"
-      sha256 "ad4d158ee2a727c8c579cd6d852daa3f801666fb2224d3879830273102b0a5e6"
+      url "https://github.com/imgerson/emd/releases/download/v0.2.0/emd_0.2.0_darwin_amd64.tar.gz"
+      sha256 "66db63d397670b40241ca892636e2f808c8061746979b992e61f93e9621cc6c3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/imgerson/emd/releases/download/v0.1.0/emd_0.1.0_linux_arm64.tar.gz"
-      sha256 "990cfd782ad1334e82b2a0cc02cb07ea57b7fccc42ac0db41039cbdf3ce1612b"
+      url "https://github.com/imgerson/emd/releases/download/v0.2.0/emd_0.2.0_linux_arm64.tar.gz"
+      sha256 "8aa986953ab88ac1765af0a5b87edb049e2080fc743e3e4b9fb51a6d82777b3b"
     end
     on_intel do
-      url "https://github.com/imgerson/emd/releases/download/v0.1.0/emd_0.1.0_linux_amd64.tar.gz"
-      sha256 "aedda2f899ed569b47dc696548bf07269be7704dbc284c26f65eeccbab0a852d"
+      url "https://github.com/imgerson/emd/releases/download/v0.2.0/emd_0.2.0_linux_amd64.tar.gz"
+      sha256 "f1c13140c3291ef69edfbfad73e12fef681f58e8e68e12b37cbadb19a55224a5"
     end
   end
 
